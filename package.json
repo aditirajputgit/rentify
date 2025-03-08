@@ -1,5 +1,5 @@
 {
-  "homepage": "https://aditirajputgit.github.io/rentify",
+  "homepage": "https://aditirajputgit.github.io/rentify/",
   "name": "nandi",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "clean": "Remove-Item -Recurse -Force dist, node_modules"
   },
   "dependencies": {
@@ -33,6 +33,7 @@
     "eslint-plugin-react-refresh": "^0.4.19",
     "gh-pages": "^6.3.0",
     "globals": "^15.15.0",
+    "rimraf": "^6.0.1",
     "vite": "^6.2.0"
   }
 }

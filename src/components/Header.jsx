@@ -15,7 +15,7 @@ export default function Header() {
       }}
     >
       <Link
-        to="/"
+        to="/rentify"
         style={{
           display: "flex",
           alignItems: "center",
@@ -25,7 +25,7 @@ export default function Header() {
         }}
       >
         <Home style={{ height: "24px", width: "24px", color: "#0070f3" }} />
-        <span style={{ marginLeft: "8px", fontWeight: "bold", fontSize: "18px" ,color:"blue"}}>
+        <span style={{ marginLeft: "8px", fontWeight: "bold", fontSize: "18px", color: "blue" }}>
           Rentify
         </span>
       </Link>
