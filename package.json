@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build",
+    "clean": "Remove-Item -Recurse -Force dist, node_modules"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
